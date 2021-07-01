@@ -18,7 +18,7 @@ class APIClient {
       "interests": [
         "Lifestyle"
       ],
-      "instructions": "- Keeping track of sugar intake helps you determine whether you need to make adjustments in meals or medications to fuel your muscle and balance your testosterone.\n- Moderate cardio exercises (30 minutes, five days a week) will protect your heart health and won’t trigger excess testosterone production.\n- Aerobics, Tennis, and Swimming are activities that will periodically stabilize Testosterone. Combining cardio, like walking or swimming, with stretching or balance moves are all additional exercises to help balance testosterone.\n- Try resistance training with light weights or elastic bands.",
+      "instructions": "- Keeping track of sugar intake helps you determine whether you need to make adjustments in meals or medications to fuel your muscle and balance your testosterone.\\n- Moderate cardio exercises (30 minutes, five days a week) will protect your heart health and won’t trigger excess testosterone production.\\n- Aerobics, Tennis, and Swimming are activities that will periodically stabilize Testosterone. Combining cardio, like walking or swimming, with stretching or balance moves are all additional exercises to help balance testosterone.\\n- Try resistance training with light weights or elastic bands.",
       "daysToEffect": 28,
       "photoURL": "https://images.unsplash.com/photo-1534125641411-7b585a870768?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
       "sortingScore": 0,
@@ -35,7 +35,7 @@ class APIClient {
       "interests": [
         "Lifestyle"
       ],
-      "instructions": "Though there is no universal HIIT session duration, these intense workouts typically last under 30 minutes, with times varying based on a participant's current fitness level. Our HIIT suggestion: \n- Start with a 5 minute warm up.\n- Complete 8 sets of 20–30 seconds of all-out sprinting.\n- Follow your sprints by 60–90 second walk.\n- Close out your workout with a 5 minute cool down.\n- We recommend this workout 2-3 times a week.",
+      "instructions": "Though there is no universal HIIT session duration, these intense workouts typically last under 30 minutes, with times varying based on a participant's current fitness level. Our HIIT suggestion: \\n- Start with a 5 minute warm up.\\n- Complete 8 sets of 20–30 seconds of all-out sprinting.\\n- Follow your sprints by 60–90 second walk.\\n- Close out your workout with a 5 minute cool down.\\n- We recommend this workout 2-3 times a week.",
       "daysToEffect": 35,
       "photoURL": "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       "sortingScore": 4,
@@ -69,7 +69,7 @@ class APIClient {
       "interests": [
         "Lifestyle"
       ],
-      "instructions": "Exercises include: \n-Barbell Bench Press: 3-4 sets of 6-10 reps\n-Barbell Back Squat: 3-4 sets of 6-10 reps\n-Pull-Ups: 3-4 sets of 6-10 reps\n-Lying Hamstring Dumbbell Curls: 3-4 sets of 10-15 reps\n-Standing Overhead Press: 3-4 sets of 6-10 reps\n-Face Pulls: 3-4 sets of 10-15 reps\n-Drag Curls: 3-4 sets of 8-10 reps\n-Calf raises and/or abs circuit exercises can definitely be added as accessory movements.",
+      "instructions": "Exercises include: \\n-Barbell Bench Press: 3-4 sets of 6-10 reps\\n-Barbell Back Squat: 3-4 sets of 6-10 reps\\n-Pull-Ups: 3-4 sets of 6-10 reps\\n-Lying Hamstring Dumbbell Curls: 3-4 sets of 10-15 reps\\n-Standing Overhead Press: 3-4 sets of 6-10 reps\\n-Face Pulls: 3-4 sets of 10-15 reps\\n-Drag Curls: 3-4 sets of 8-10 reps\\n-Calf raises and/or abs circuit exercises can definitely be added as accessory movements.",
       "daysToEffect": 28,
       "photoURL": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
       "sortingScore": 0,
@@ -120,7 +120,7 @@ class APIClient {
       "interests": [
         "Lifestyle"
       ],
-      "instructions": "- Moderate cardio exercises (30 minutes, five days a week) will protect your heart health and won’t trigger excess testosterone production and helps manage stress. \n- Try and include gym equipment into your workouts such as parallel bars, leapfrog blocks, incline press machines, and balance beams. ",
+      "instructions": "- Moderate cardio exercises (30 minutes, five days a week) will protect your heart health and won’t trigger excess testosterone production and helps manage stress. \\n- Try and include gym equipment into your workouts such as parallel bars, leapfrog blocks, incline press machines, and balance beams. ",
       "daysToEffect": 28,
       "photoURL": "https://images.unsplash.com/photo-1541626253827-15463f3479c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
       "sortingScore": 0,
@@ -133,11 +133,11 @@ class APIClient {
     {
       "id": 157,
       "title": "Ease your Body and Mind",
-      "description": "\"Soft\" excercises and proved medical and \"quiropractician\" treatment are great tools to help us settle and avoid a build up of stress.",
+      "description": "\\"Soft\\" excercises and proved medical and \\"quiropractician\\" treatment are great tools to help us settle and avoid a build up of stress.",
       "interests": [
         "Lifestyle"
       ],
-      "instructions": " Cryotherapy, will help us against probable inflamation due to high stress levels.\n- Red Light Therapy: You can find FDA-approved devices online that you can purchase and use at home.\n- Walking, running, and riding are helpful activities that relieve stress. Raising your heart rate through physical activity is a proven way to mitigate stress.\n- Settle down and unwind with a massage at your local wellness center.",
+      "instructions": " Cryotherapy, will help us against probable inflamation due to high stress levels.\\n- Red Light Therapy: You can find FDA-approved devices online that you can purchase and use at home.\\n- Walking, running, and riding are helpful activities that relieve stress. Raising your heart rate through physical activity is a proven way to mitigate stress.\\n- Settle down and unwind with a massage at your local wellness center.",
       "daysToEffect": 60,
       "photoURL": "https://images.unsplash.com/photo-1577344718665-3e7c0c1ecf6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       "sortingScore": 0,
@@ -150,11 +150,11 @@ class APIClient {
     {
       "id": 160,
       "title": "Maintain Temperature During Sleep ",
-      "description": "Besides sunlight and dawn, one of the most important signals that our body uses to control \"vigil/dream\" state, is self-thermoregulation and enviroment temperature changes. Controlling your environment will help you establish a repetitive sleep-time schedule.",
+      "description": "Besides sunlight and dawn, one of the most important signals that our body uses to control \\"vigil/dream\\" state, is self-thermoregulation and enviroment temperature changes. Controlling your environment will help you establish a repetitive sleep-time schedule.",
       "interests": [
         "Lifestyle"
       ],
-      "instructions": "The recommended sleeping temperature for adults is 60 to 72 degrees Fahrenheit. \n— Drink plenty of water during the day to keep your body hydrated and cool while you sleep. \n— Wear lightweight, loose-fitting clothing, preferably made from natural fibres like cotton or linen that absorb sweat and allow the skin to breathe. Avoid synthetic fabrics.\n— Keep humidity between 30 and 50 percent\n—Try and avoid your hands and feet from getting colder than the rest of your body.",
+      "instructions": "The recommended sleeping temperature for adults is 60 to 72 degrees Fahrenheit. \\n— Drink plenty of water during the day to keep your body hydrated and cool while you sleep. \\n— Wear lightweight, loose-fitting clothing, preferably made from natural fibres like cotton or linen that absorb sweat and allow the skin to breathe. Avoid synthetic fabrics.\\n— Keep humidity between 30 and 50 percent\\n—Try and avoid your hands and feet from getting colder than the rest of your body.",
       "daysToEffect": 90,
       "photoURL": "https://images.unsplash.com/photo-1543250904-739eea54bfa7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       "sortingScore": 0,
@@ -239,7 +239,7 @@ class APIClient {
       "interests": [
         "Lifestyle"
       ],
-      "instructions": "-   Look out for a cryotherapy clinic near you. Try this once in a span of two weeks; after your hardest gym day.\n-   Moderately expose your body to colder environments. The amount of cold applied to the body should not outstrip the body’s ability to neutralize it.\n-   Five minutes of shivering is equivalent to 20 minutes of exercising.",
+      "instructions": "-   Look out for a cryotherapy clinic near you. Try this once in a span of two weeks; after your hardest gym day.\\n-   Moderately expose your body to colder environments. The amount of cold applied to the body should not outstrip the body’s ability to neutralize it.\\n-   Five minutes of shivering is equivalent to 20 minutes of exercising.",
       "daysToEffect": 28,
       "photoURL": "https://images.unsplash.com/photo-1569744013379-0cce812ff898?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       "sortingScore": 0,
@@ -252,11 +252,11 @@ class APIClient {
     {
       "id": 147,
       "title": "Avoid Heater Temperatures During Sleep",
-      "description": "Besides sunlight and dawn, one of the most important signals that our body uses to control \"vigil/dream\" state, is self-thermoregulation and enviroment temperature changes. Controlling your environment will help you establish a repetitive sleep-time schedule.",
+      "description": "Besides sunlight and dawn, one of the most important signals that our body uses to control \\"vigil/dream\\" state, is self-thermoregulation and enviroment temperature changes. Controlling your environment will help you establish a repetitive sleep-time schedule.",
       "interests": [
         "Lifestyle"
       ],
-      "instructions": "The recommended sleeping temperature for adults is 60 to 72 degrees Fahrenheit.  — Drink plenty of water during the day to keep your body hydrated and cool while you sleep.  — Wear lightweight, loose-fitting clothing, preferably made from natural fibres like cotton or linen that absorb sweat and allow the skin to breathe. Avoid synthetic fabrics..  — Keep humidity between 30 and 50 percent —In northern states where it gets really cold, it’s recommended to keep the room slightly warmer to accommodate night time drops in temperature. Try to avoid getting hands and feet colder. \"",
+      "instructions": "The recommended sleeping temperature for adults is 60 to 72 degrees Fahrenheit.  — Drink plenty of water during the day to keep your body hydrated and cool while you sleep.  — Wear lightweight, loose-fitting clothing, preferably made from natural fibres like cotton or linen that absorb sweat and allow the skin to breathe. Avoid synthetic fabrics..  — Keep humidity between 30 and 50 percent —In northern states where it gets really cold, it’s recommended to keep the room slightly warmer to accommodate night time drops in temperature. Try to avoid getting hands and feet colder. \\"",
       "daysToEffect": 28,
       "photoURL": "https://images.unsplash.com/photo-1587875690640-f6cf75e2c06b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       "sortingScore": 0,
@@ -307,7 +307,7 @@ class APIClient {
       "interests": [
         "Lifestyle"
       ],
-      "instructions": "-   Try and create an extremely dark and silent sleep environment.\n-   Avoid screens at night.\n-   Try and start your day by absorbing 5-10 minutes of natural sunlight; this will get you going on the right foot for the rest of your day.\n-   Introduce ear plugs and blue light glasses when looking at computer, phone, and TV screens.",
+      "instructions": "-   Try and create an extremely dark and silent sleep environment.\\n-   Avoid screens at night.\\n-   Try and start your day by absorbing 5-10 minutes of natural sunlight; this will get you going on the right foot for the rest of your day.\\n-   Introduce ear plugs and blue light glasses when looking at computer, phone, and TV screens.",
       "daysToEffect": 60,
       "photoURL": "https://images.unsplash.com/photo-1495234347927-15da3bd48ee6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "sortingScore": 0,
@@ -324,7 +324,7 @@ class APIClient {
       "interests": [
         "Nutrition"
       ],
-      "instructions": "\n- Enjoy 5-6 smaller meals a day  with at least 15-30grams of low-glycemic carbohydrates in each meal.\n- Include adequate high quality protein from fish, eggs and legumes.\n- Intake moderate caffeine and stimulants.",
+      "instructions": "\\n- Enjoy 5-6 smaller meals a day  with at least 15-30grams of low-glycemic carbohydrates in each meal.\\n- Include adequate high quality protein from fish, eggs and legumes.\\n- Intake moderate caffeine and stimulants.",
       "daysToEffect": 20,
       "photoURL": "https://images.unsplash.com/photo-1516005492235-7a8d3a652dca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       "sortingScore": 0,
@@ -337,11 +337,11 @@ class APIClient {
     {
       "id": 156,
       "title": "Defend Yourself from Stress",
-      "description": "One of the \"easiest\" and natural ways of protecting against stressful situations is doing self-psycological work. Your brain has the best tools to avoid succumbing to stress.",
+      "description": "One of the \\"easiest\\" and natural ways of protecting against stressful situations is doing self-psycological work. Your brain has the best tools to avoid succumbing to stress.",
       "interests": [
         "Lifestyle"
       ],
-      "instructions": "- Guided meditation, deep breathing, and yoga will help relax the mind and ground you.\n- Aromatherapy, or using essential oils and burning a scented candle may help reduce your feelings of stress and anxiety.\n- Enjoy your free time with artistic or braintraining hobbies.\n- Moderate caffeine and stimulants and increase water intake.",
+      "instructions": "- Guided meditation, deep breathing, and yoga will help relax the mind and ground you.\\n- Aromatherapy, or using essential oils and burning a scented candle may help reduce your feelings of stress and anxiety.\\n- Enjoy your free time with artistic or braintraining hobbies.\\n- Moderate caffeine and stimulants and increase water intake.",
       "daysToEffect": 60,
       "photoURL": "https://images.unsplash.com/photo-1554245026-181f2d8e79c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       "sortingScore": 0,
@@ -358,7 +358,7 @@ class APIClient {
       "interests": [
         "Supplements"
       ],
-      "instructions": "In general, it is recommended that users begin with the lowest suggested dose, and gradually increase as needed. For sleep, stress and anxiety: 100-200 milligrams is typically recommended. Be bold and try GABA infused chewing gum.\n",
+      "instructions": "In general, it is recommended that users begin with the lowest suggested dose, and gradually increase as needed. For sleep, stress and anxiety: 100-200 milligrams is typically recommended. Be bold and try GABA infused chewing gum.\\n",
       "daysToEffect": 21,
       "photoURL": "https://images.unsplash.com/photo-1574043948184-144f2ef80fe3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       "sortingScore": 0,
@@ -392,7 +392,7 @@ class APIClient {
       "interests": [
         "Lifestyle"
       ],
-      "instructions": "Limit your fat consumption to food richs in PUFAs like olive oil, sunflower seeds or oily fish as protein source. Also you can find fortified foods, such as certain brands of milk, eggs and juices.\nAvoid products high in refined sugars. High carb, animal fat and sugar transport or increase cholesterol where testosterone sometimes bind.\nTry to include as much as posible soy products in your diet, they are rich in phytoestrogens.\nAdditional tips. Reishi mushrooms had the strongest action in inhibiting testosterone between these kind of meal, also teas like spearmint or green tea will help you reduce testosterone level.",
+      "instructions": "Limit your fat consumption to food richs in PUFAs like olive oil, sunflower seeds or oily fish as protein source. Also you can find fortified foods, such as certain brands of milk, eggs and juices.\\nAvoid products high in refined sugars. High carb, animal fat and sugar transport or increase cholesterol where testosterone sometimes bind.\\nTry to include as much as posible soy products in your diet, they are rich in phytoestrogens.\\nAdditional tips. Reishi mushrooms had the strongest action in inhibiting testosterone between these kind of meal, also teas like spearmint or green tea will help you reduce testosterone level.",
       "daysToEffect": 40,
       "photoURL": "https://images.unsplash.com/photo-1552874624-448f857074ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
       "sortingScore": 0,
@@ -426,7 +426,7 @@ class APIClient {
       "interests": [
         "Nutrition"
       ],
-      "instructions": "Include a low calorie meal plan, between 1200-1800 calories, depending on your body weight. \n- Introduce foods like dark chocolate, milk, and olive oil\n- Eat vegetables and legumes, which are high in fiber.\n- Limit or avoid soy products, corn/canola/safflower oil, processed meat, refined grain and sugars. \n- Limit alcohol intake.",
+      "instructions": "Include a low calorie meal plan, between 1200-1800 calories, depending on your body weight. \\n- Introduce foods like dark chocolate, milk, and olive oil\\n- Eat vegetables and legumes, which are high in fiber.\\n- Limit or avoid soy products, corn/canola/safflower oil, processed meat, refined grain and sugars. \\n- Limit alcohol intake.",
       "daysToEffect": 40,
       "photoURL": "https://images.unsplash.com/photo-1575740226055-b78dd5964d33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       "sortingScore": 0,
@@ -443,7 +443,7 @@ class APIClient {
       "interests": [
         "Lifestyle"
       ],
-      "instructions": "- Try to squeeze in 5 minutes of sunlight in the morning.\n- Avoid sleeping with the phone under your pillow or next to your bed and power down as many devices as possible.\n- Make sure there are no lights on while you sleep. If necessary, use blackout curtains or an eye mask to block ambient light.\n- Try “Corpse Pose”, by lying down still and flat on your back, focusing only on your breath. Avoid checking work emails, watching TV or going on social media. Instead, substitute that with meditating, reading, or listening to a relaxing podcast before bed.",
+      "instructions": "- Try to squeeze in 5 minutes of sunlight in the morning.\\n- Avoid sleeping with the phone under your pillow or next to your bed and power down as many devices as possible.\\n- Make sure there are no lights on while you sleep. If necessary, use blackout curtains or an eye mask to block ambient light.\\n- Try “Corpse Pose”, by lying down still and flat on your back, focusing only on your breath. Avoid checking work emails, watching TV or going on social media. Instead, substitute that with meditating, reading, or listening to a relaxing podcast before bed.",
       "daysToEffect": 35,
       "photoURL": "https://images.unsplash.com/photo-1579906634518-1d3bbcde4264?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       "sortingScore": 0,
@@ -477,7 +477,7 @@ class APIClient {
       "interests": [
         "Lifestyle"
       ],
-      "instructions": "Sources suggest that as few as 8–15 minutes of Vitamin D exposure is plenty to absorb essential nutrients for fair-skinned individuals. Those with darker skin may need more time.\n- UV lamps mimic the action of the sun and can be especially helpful if sun exposure is limited due to geography or time indoors.\n- To protect yourself, avoid the summer sunshine, especially between 10 a.m. and 2 p.m. ",
+      "instructions": "Sources suggest that as few as 8–15 minutes of Vitamin D exposure is plenty to absorb essential nutrients for fair-skinned individuals. Those with darker skin may need more time.\\n- UV lamps mimic the action of the sun and can be especially helpful if sun exposure is limited due to geography or time indoors.\\n- To protect yourself, avoid the summer sunshine, especially between 10 a.m. and 2 p.m. ",
       "daysToEffect": 60,
       "photoURL": "https://images.unsplash.com/photo-1508854599553-37f84084d456?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       "sortingScore": 0,
