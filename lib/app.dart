@@ -1,4 +1,4 @@
-import 'package:challenge/widget/list/challenge_list.dart';
+import 'package:challenge/widget/list/challenge_list_page.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -9,7 +9,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ChallengeList(),
+      home: ChallengeListPage(),
     );
   }
 }
