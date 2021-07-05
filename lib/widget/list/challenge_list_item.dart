@@ -2,6 +2,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:challenge/cubit/user_challenges_cubit.dart';
 import 'package:challenge/data/model/challenge_entity.dart';
 import 'package:challenge/data/model/user_challenges_entity.dart';
+import 'package:challenge/widget/detail/challenge_detail_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -21,13 +22,24 @@ class ChallengeListItem extends StatelessWidget {
         BlocProvider.of<UserChallengesCubit>(context)
             .ruleOutChallenge(challenge.id);
       },
-      child: Card(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Stack(
-              children: [
-                Container(
+      child: InkWell(
+        onTap: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) => ChallengeDetailPage(challenge: challenge),
+            ),
+          );
+        },
+        child: Card(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(5),
+                  topRight: Radius.circular(5),
+                ),
+                child: Container(
                   height: 120,
                   decoration: BoxDecoration(
                     image: DecorationImage(
@@ -36,44 +48,53 @@ class ChallengeListItem extends StatelessWidget {
                     ),
                   ),
                 ),
-                Positioned(
-                  left: 8,
-                  right: 8,
-                  bottom: 16,
-                  child: Row(
-                    crossAxisAlignment: CrossAxisAlignment.end,
-                    children: [
-                      if (challenge.interests.isNotEmpty &&
-                          challenge.interests.first.isNotEmpty)
-                        ChallengeTypeCard(
-                          type: challenge.interests.first,
-                        ),
-                      Expanded(
-                        child: Text(
-                          '${challenge.daysToEffect} days',
-                          maxLines: 2,
-                          textAlign: TextAlign.end,
-                          style: Theme.of(context).accentTextTheme.headline6,
-                        ),
-                      )
-                    ],
-                  ),
-                ),
-                Positioned(
-                  right: 8,
-                  top: 8,
-                  child: ChallengeLikeButton(challenge: challenge),
-                ),
-              ],
-            ),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
-              child: Text(
-                challenge.title,
-                style: Theme.of(context).textTheme.headline6,
               ),
-            ),
-          ],
+              Padding(
+                padding: EdgeInsets.all(16),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Container(
+                      width: MediaQuery.of(context).size.width * .7,
+                      child: Text(
+                        challenge.title,
+                        style: Theme.of(context).textTheme.headline6,
+                      ),
+                    ),
+                    ChallengeLikeButton(challenge: challenge),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(
+                  left: 16.0,
+                  right: 16.0,
+                  bottom: 16.0,
+                ),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: [
+                    if (challenge.interests.isNotEmpty &&
+                        challenge.interests.first.isNotEmpty)
+                      ChallengeTypeCard(
+                        type: challenge.interests.first,
+                      ),
+                    Expanded(
+                      child: Text(
+                        '${challenge.daysToEffect} days',
+                        maxLines: 2,
+                        textAlign: TextAlign.end,
+                        style: TextStyle(
+                          color: Theme.of(context).primaryColor,
+                          fontSize: 18,
+                        ),
+                      ),
+                    )
+                  ],
+                ),
+              )
+            ],
+          ),
         ),
       ),
     );
@@ -95,9 +116,9 @@ class ChallengeTypeCard extends StatelessWidget {
       ),
       padding: EdgeInsets.symmetric(horizontal: 8, vertical: 7),
       decoration: BoxDecoration(
-          color: Colors.white24,
-          borderRadius: BorderRadius.circular(6),
-          border: Border.all(color: Colors.white, width: 1)),
+        color: Theme.of(context).primaryColor.withOpacity(0.8),
+        borderRadius: BorderRadius.circular(6),
+      ),
     );
   }
 }
@@ -116,8 +137,14 @@ class ChallengeLikeButton extends StatelessWidget {
       builder: (context, state) {
         UserChallengesEntity userChallenges =
             (state as UserChallengesUpdated).userChallenges;
-        const Icon likedIcon = Icon(Icons.star);
-        const Icon notLikedIcon = Icon(Icons.star_border_outlined);
+        const Icon likedIcon = Icon(
+          Icons.star,
+          color: Colors.amber,
+        );
+        const Icon notLikedIcon = Icon(
+          Icons.star_border_outlined,
+          color: Colors.black45,
+        );
         Icon likeIcon = userChallenges.likedChallenges.contains(challenge.id)
             ? likedIcon
             : notLikedIcon;
@@ -125,7 +152,7 @@ class ChallengeLikeButton extends StatelessWidget {
         return ClipRRect(
           borderRadius: BorderRadius.circular(6),
           child: Material(
-            color: Colors.white38,
+            color: Colors.white60,
             child: InkWell(
               onTap: (() {
                 BlocProvider.of<UserChallengesCubit>(context)

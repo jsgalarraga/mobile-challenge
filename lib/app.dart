@@ -5,6 +5,7 @@ import 'package:challenge/data/model/user_challenges_entity.dart';
 import 'package:challenge/widget/list/challenge_list_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class App extends StatelessWidget {
   final UserChallengesEntity userChallenges = UserChallengesEntity();
@@ -27,7 +28,8 @@ class App extends StatelessWidget {
       child: MaterialApp(
         title: 'Challenges',
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          textTheme: GoogleFonts.ralewayTextTheme(),
+          primarySwatch: Colors.teal,
         ),
         home: ChallengeListPage(),
       ),
