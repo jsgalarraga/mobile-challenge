@@ -1,7 +1,11 @@
-import 'package:challenge/data/challenge_repository.dart';
+import 'package:challenge/cubit/challenges_cubit.dart';
+import 'package:challenge/cubit/user_challenges_cubit.dart';
 import 'package:challenge/data/model/challenge_entity.dart';
+import 'package:challenge/data/model/user_challenges_entity.dart';
 import 'package:challenge/widget/list/challenge_list_item.dart';
+import 'package:challenge/widget/sort/sort_challenges_dialog.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ChallengeListPage extends StatefulWidget {
   ChallengeListPage({Key? key}) : super(key: key);
@@ -11,16 +15,10 @@ class ChallengeListPage extends StatefulWidget {
 }
 
 class _ChallengeListPageState extends State<ChallengeListPage> {
-  final ChallengeRepository _challengeRepository = ChallengeRepository();
-  List<ChallengeEntity> challenges = [];
-
   @override
   void initState() {
     super.initState();
-    final challenges = _challengeRepository.getChallenges();
-    setState(() {
-      this.challenges = challenges;
-    });
+    BlocProvider.of<ChallengesCubit>(context).getChallenges();
   }
 
   @override
@@ -28,15 +26,53 @@ class _ChallengeListPageState extends State<ChallengeListPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Challenges"),
+        actions: [
+          IconButton(
+            onPressed: () {
+              showDialog(
+                context: context,
+                builder: (context) {
+                  return SortChallengeDialog();
+                },
+              );
+            },
+            icon: Icon(Icons.sort_rounded),
+          )
+        ],
       ),
-      body: ListView.separated(
-        padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
-        separatorBuilder: (BuildContext context, int index) {
-          return SizedBox(height: 8);
+      body: BlocBuilder<ChallengesCubit, ChallengesState>(
+        builder: (context, state) {
+          List<ChallengeEntity> challenges =
+              (state as ChallengesUpdated).challenges;
+          return BlocBuilder<UserChallengesCubit, UserChallengesState>(
+            /// Contains an updated list of all the challenges that have not been ruled out
+            builder: (context, state) {
+              UserChallengesEntity userChallenges =
+                  (state as UserChallengesUpdated).userChallenges;
+              List<ChallengeEntity> activeChallenges = challenges
+                  .where((element) =>
+                      !userChallenges.ruledOutChallenges.contains(element.id))
+                  .toList();
+              return ListView.separated(
+                padding: const EdgeInsets.symmetric(
+                  vertical: 8,
+                  horizontal: 16,
+                ),
+                separatorBuilder: (BuildContext context, int index) {
+                  return SizedBox(height: 8);
+                },
+                itemBuilder: (context, index) {
+                  ChallengeEntity challenge = activeChallenges[index];
+                  return ChallengeListItem(
+                    key: Key('${challenge.id}'),
+                    challenge: challenge,
+                  );
+                },
+                itemCount: activeChallenges.length,
+              );
+            },
+          );
         },
-        itemBuilder: (context, index) =>
-            ChallengeListItem(challenge: challenges[index]),
-        itemCount: challenges.length,
       ),
     );
   }
